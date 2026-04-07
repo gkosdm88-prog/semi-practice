@@ -12,18 +12,18 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  color: #fff;
+  color: #e0ed2b;
 }
 
 .card {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
-  border-radius: 20px;
-  padding: 48px 40px;
-  max-width: 560px;
+  border-radius: 120px;
+  padding: 160px 40px;
+  max-width: 400px;
   width: 100%;
   text-align: center;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 100px 60px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
