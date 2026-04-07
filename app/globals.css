@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, "Pretendard", sans-serif;
+  background: linear-gradient(135deg, #e8c00c 0%, #380924 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 48px 40px;
+  max-width: 560px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 12px;
+  opacity: 0.95;
+}
+
+.tag {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 0.9rem;
+}

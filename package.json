@@ -1,0 +1,16 @@
+{
+  "name": "semi-practice",
+  "version": "1.0.0",
+  "description": "세미님을 위한 연습용입니다.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.3.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
